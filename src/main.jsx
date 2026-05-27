@@ -1,6 +1,10 @@
-{/* Adicione isto dentro do <div className="p-8"> logo após o título "Base de Clientes" */}
-{activeTab === 'clientes' && (
-   <table className="w-full bg-white rounded-lg shadow-sm border border-slate-200">
-      {/* ... seu código da tabela aqui ... */}
-   </table>
-)}
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
